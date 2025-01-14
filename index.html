@@ -1,37 +1,161 @@
+<!-- Why is "<!DOCTYPE html>" used? Coz the present standard of html. And most browser would follow the latest standard document of html, not old". -->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox</title>
+<html>
+  <head>
+    <title>First Site</title>
     <style>
-        .flex-container{
-            display: flex;
-        }
-        .flex-items{
-            background-color: dodgerblue;
-            width: 200px;
-            height: 200px;
+      body{
+        margin: 20px;
+      }
 
-        }
-        .flex-1{
-            order: 2;
-        }
-        .flex-2{
-            order: 3;
-        }
     </style>
-</head>
-<body>
-    <div class="flex-container">
+  </head>
+  <body>
+    <a href="#4th heading">4th Heading</a>
+    <h1>How does the Internet work?</h1>
+    <p>
+      <em>Internet</em> works no different than two devices connected to each other
+      through a wire, and the user tries to transfer files from one device to
+      another. Internet is just the connection of billions of computers through
+      wires around the world to share information to each other in the form of
+      websites, images, videos, and so on, through primarily a device
+      identification process (known as IP Address) and a set of rules (such as
+      the Word Wide Web).
+    </p>
+    <h3>Links for Learning</h3>
+    <p>
+      If you wish to know more about programming, the history of the internet,
+      and how the internet works, and so on. Then click on the following links.
+      And one last thing, good luck on your jouney.
+    </p>
+    Link:
+    <a
+      href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work"
+      alt="Article on how he internet works"
+      target="_blank"
+      >On the how the internet works - MDN docs</a
+    >
+    <p>
+      <strong>About:</strong> This article breaks down how the internet works.
+    </p>
+    Link: <a
+      href="https://www.vox.com/a/internet-maps"
+      alt="Article on the history of internet"
+      target="_blank"
+      >On the History of Internet</a
+    >
+    <p>
+      <strong>Summary:</strong> <em>Internet</em> was initially a military
+      project (in california), then it became extremely popular throughout
+      United States of America, and then it started to get used in other parts
+      of the world, from rich countries to poor countries. It's a worth reading
+      article.
+    </p>
+    Link: <a
+      href="https://www.inmotionhosting.com/support/server/ssh/read-traceroute/"
+      alt="An article regarding the traceroute of the internet"
+      target="_blank"
+      >On the traceroute of the internet</a
+    >
+    <p>
+      <strong>About:</strong> In short, when we enter <em>URL</em> of a website
+      into a browser, first it sends the signal to our router, then
+      <em>ISP</em>, then the main internet stops, then finally the website's
+      server. All these stops have their unique IP addresses. And you can see
+      the speed of the IPs in ms, and it can be useful to figure out, if your
+      router is okay or not. It's figured out by looking at the latency time of
+      your router's IP address. <br />
+      <em>How to check the "trace-route" of a website?</em> <br />
+      Go to the "Command Prompt", and write "tracert -4 google.com", and you
+      will get the trace-route of the website.
+    </p>
+    Link: <a
+      href="https://blog.hubspot.com/website/ipv6-vs-ipv4"
+      alt="Article on the versions of IP address"
+      target="_blank"
+      >On the versions of IP address</a
+    >
+    <p>
+      <strong>About:</strong> In short, IPv6 is the latest version of "Internet
+      Protocol", and is much more complex than IPv4 (by having unique IP address
+      names i.e. both letters and numbers), though we still largely use IPv4.
+    </p>
+    <br>
+    <a href="register.html"><strong>Registeration Page</strong></a> <br> <br>
+    <a href="notes.html"><strong>My Notes</strong></a>
+    <h4 id="4th heading">The fourth most important heading</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis doloremque, accusamus mollitia minima debitis facilis in sit esse placeat dolorum non, sequi provident eligendi. Quisquam eveniet sint adipisci! Quo, minus.</p>
 
-        <div class="flex-items flex-1">1</div>
-        <div class="flex-items flex-2">2</div>
-        <div class="flex-items flex-3">3</div>
-        <div class="flex-items flex-4">4</div>
-        <div class="flex-items flex-5">5</div>
-        <div class="flex-items flex-6">6</div>
+    <hr>
+    <br>
+    <br>
 
-    </div>
-</body>
+                    <!-- Notes -->
+    <h1>Programming Foundamentals Simplified</h1>
+    <p>
+      <strong> What exactly is programming? </strong>
+    </p>
+    <p>
+      Programming is about completing a task by a computer by giving it
+      extremely precise instructions. Computers are incredibly dumb, so if the
+      instructions are not 100% precise, then the computer won’t be able to
+      understand your code, and your task will never be completed. A practical
+      example of this can be an unintelligent friend. If you give unclear
+      instructions to your unintelligent friend to complete a task, then he
+      won't be able to complete the task.
+    </p>
+    <strong> Why do programming languages exist? </strong>
+    <p>
+      We also need to translate our instructions into the language of the
+      computer, and the language of any computer is binary language. Otherwise,
+      it wouldn’t understand its task, and the task would never be completed.
+      Think of giving your friend instructions to complete a task in English,
+      but he only speaks Chinese. He wouldn’t be able to understand what we were
+      saying, so the task would never get completed unless the instructions were
+      translated into his language. It’s possible to learn the language of a
+      Chinese friend and then give him instructions in his language, but on the
+      other hand, it’s impossible to learn the binary language of the computer
+      and then give it instructions about a particular task. That’s why; we have
+      programming languages that help as your translator friend between
+      programmers and computers.
+    </p>
+    <strong> What types of programming languages are there? </strong>
+    <p>
+      Programming languages are categorized on the basis of the functions and
+      secondly, the levels of a language. <br />
+      On the basis of functions, some languages, such as Python and Java, are
+      used for general purposes. On the other hand, Languages such as HTML and
+      CSS are used for specific tasks, such as Web Development. <br />
+      On the basis of levels, there are two levels of programming language,
+      i.e., Low and high languages. Assembly, C, and so on are examples of
+      low-level languages, and on the other hand, Java, Python, and so on are
+      high-level languages. <br />
+      <em
+        >The code of Low-Level Languages is closer in appearance to machine
+        code, hence why low-level languages are more difficult than high-level
+        languages.</em
+      >
+    </p>
+
+
+    <hr>
+    <br><br>
+
+    
+<form method="GET">
+  First Name:<input type="text" placeholder="name" name="firstname"> <br>
+  First Name:<input type="text" placeholder="name" name="lastname"> <br>
+  Email:<input type="email" required placeholder="email" name="email"> <br>
+  Password:<input type="password" required min="10" placeholder="password"> <br>
+  Date of Birth:<input type="date"> <br>
+  Gender: <br>
+  <input type="radio" name="Gender" value="male"> Male <br>
+  <input type="radio" name="Gender" value="female"> Female <br>
+  <input type="submit" name="submit" value="register"> 
+  <input type="reset">
+</form>
+<br>
+<a href="index.html"><strong>Home Page</strong></a>
+
+  </body>
 </html>
